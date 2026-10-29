@@ -1,0 +1,13 @@
+{
+  "name": "ai-habit-tracker-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Powered Habit Tracker Full-Stack MERN Application with Google Gemini AI",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "test": "npm --prefix backend test",
+    "build": "npm run build --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend"
+  }
+}
